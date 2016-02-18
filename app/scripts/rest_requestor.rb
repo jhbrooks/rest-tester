@@ -13,3 +13,5 @@ puts RestClient.get(new_url)
 
 edit_url = "http://localhost:3000/users/1/edit"
 puts RestClient.get(edit_url)
+
+RestClient.post(index_url, { sketchy: "data" })
